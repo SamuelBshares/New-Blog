@@ -1,0 +1,201 @@
+@import url(normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Silkscreen&display=swap");
+@import url(mobile.css);
+@import url(tablet.css);
+@import url(desktop.css);
+
+html {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  padding: 4rem;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.intro {
+  font-family: "Silkscreen", cursive;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+/* nav style */
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px 5%;
+}
+
+footer,
+header a,
+li {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.nav_links {
+  list-style: none;
+  font-weight: 500;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.logo {
+  margin-right: auto;
+  font-family: "Silkscreen", cursive;
+}
+
+.nav_links li a {
+  transition: all 0.5s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #b4b4b4;
+}
+
+/* Heading style */
+
+.welcome_text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.welcome_text p {
+  padding: 0rem 1rem 3rem;
+  margin-top: 0;
+}
+
+/*cards styling*/
+
+.post_image {
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border: solid 4px black;
+  box-shadow: 15px 15px 0 -4px white, 15px 15px black;
+  display: inline-block;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card_pad {
+  padding: 1rem;
+}
+
+.card__text {
+  font-size: 0.9rem;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  background-color: #191918;
+  border: solid 4px black;
+  text-decoration: none;
+  color: #fefefc;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+/* Footer styling */
+footer {
+  font-family: "Silkscreen", cursive;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blog page styling */
+
+/* Article Header */
+p.article_info {
+  font-size: 0.7rem;
+  padding-bottom: 5%;
+}
+
+h1.article_title {
+  margin-top: 5%;
+}
+
+.article_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Article picture styling */
+.article_picture_content {
+  width: 100%;
+}
+
+.article_picture {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+
+  color: black;
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.main_article {
+  padding: 0 1rem;
+}
+
+/* About author stylig */
+.about {
+  padding: 5%;
+  margin: 1rem 0px;
+  max-width: 350px;
+}
+
+.about_name {
+  margin: 0;
+}
+
+.about_bio {
+  font-size: 0.7rem;
+  margin: 5px 0;
+  line-height: 1rem;
+}
+
+.about img {
+  width: clamp(50px, 100px, 400px);
+  margin: 0 5px;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.about_socials img {
+  max-width: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}

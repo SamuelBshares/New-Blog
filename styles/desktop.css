@@ -1,0 +1,25 @@
+@media screen and (min-width: 1024px) {
+  body {
+    display: grid;
+    grid-template-rows: 80px 1fr 150px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .posts {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main_article {
+    padding: 0 3rem;
+  }
+}
