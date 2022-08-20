@@ -197,5 +197,5 @@ h1.article_title {
 
 .icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
